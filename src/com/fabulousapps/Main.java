@@ -29,7 +29,7 @@ public class Main {
             builder = factory.newDocumentBuilder();
             while(true) {
 
-                System.out.println("Enter currency you want to convert(dolltorup to convert dollar to rupee)(ruptodol to convert rupee to dollar): ");
+                System.out.println("Enter currency you want to convert: ");
                 Scanner employee = new Scanner(System.in);
 
                 File document = new File("C:/Users/bassi/IdeaProjects/Currency Converter/src/CurrencyDatabase.xml");
@@ -46,13 +46,13 @@ public class Main {
                         xpath.compile("/conversionsData\n/conversion[@id='" + empid + "']/default/text()");
                 String currency = (String) name.evaluate(doc, XPathConstants.STRING);
                 float currencyF = Float.parseFloat(currency);
-                while (true){
-                    System.out.println("amount> ");
-                    Scanner amountInp = new Scanner(System.in);
-                    float amount = amountInp.nextFloat();
-                    float result = amount * currencyF;
-                    System.out.println("The result is: " + result);
-                }
+            
+                System.out.println("amount> ");
+                Scanner amountInp = new Scanner(System.in);
+                float amount = amountInp.nextFloat();
+                float result = amount * currencyF;
+                System.out.println("The result is: " + result);
+               
 
 
 
