@@ -9,4 +9,13 @@
     <conversion id="poundtorup">
         <default>99.90</default>
     </conversion>
+    <conversion id="ruptopound">
+        <default>0.010</default>
+    </conversion>
+    <conversion id="doltopound">
+        <default>0.73</default>
+    </conversion>
+    <conversion id="poundtodol">
+        <default>1.36</default>
+    </conversion>
 </conversionsData>
