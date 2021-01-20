@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<conversionsData>
+    <conversion id="doltorup">
+        <default>73.15</default>
+    </conversion>
+    <conversion id="ruptodol">
+        <default>0.014</default>
+    </conversion>
+    <conversion id="poundtorup">
+        <default>99.90</default>
+    </conversion>
+</conversionsData>
